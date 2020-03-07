@@ -35,5 +35,13 @@ namespace WebApplication2.Controllers
             })
             .ToArray();
         }
+        [HttpGet]
+        public List<Book> GetBooks()
+        {
+
+
+            return
+        }
     }
+
 }
